@@ -1,0 +1,57 @@
+body{
+    text-align: center;
+    font-size: 25px;
+    color: gold;
+    font-family: 'Alkatra', cursive;
+    background-image: linear-gradient(to top, #c471f5 0%, #fa71cd 100%);
+}
+img{
+    height: 600px;
+    border-radius: 30px;
+     margin-top:20px ;
+}
+#name{
+    font-size: 50px;
+    color: gold;
+    font-family: 'Alkatra', cursive;
+}
+#home{
+    padding-bottom: 21px;
+
+}
+p{
+    max-width: 1000px;
+    margin: 8px auto
+}
+.line{
+    height: 7px;
+    width: 270px;
+    background-image: linear-gradient(to right, #b8cbb8 0%, #b8cbb8 0%, #b465da 0%, #cf6cc9 33%, #ee609c 66%, #ee609c 100%);
+    margin: 8px auto;
+}
+.menu{
+    list-style: none;
+    position: fixed;
+    top: 10px;
+    left: -35px;
+    cursor: pointer;
+}
+.links{
+    float: left;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.links:hover{
+    font-size:27px;
+    color: aliceblue;
+}
+.menu a 
+{
+    color: gold;
+     text-decoration: none;   
+}
+.contact_1 h3{
+    display: inline;
+}
